@@ -2,7 +2,6 @@
 import streamlit as st
 import plotly.express as px
 import time
-from PIL import Image
 import io
 
 # -------------------
@@ -245,4 +244,5 @@ if st.button("Next"):
             if st.button("🔄 Try Again"):
                 for key in st.session_state.keys():
                     del st.session_state[key]
+
                 st.rerun()
