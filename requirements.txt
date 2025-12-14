@@ -1,4 +1,4 @@
-streamlit
-plotly
-pillow
-fixed plotly dependency
+streamlit==1.32.2
+plotly==5.22.0
+pillow==10.2.0
+
